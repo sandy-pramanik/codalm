@@ -44,7 +44,7 @@ The p-value for the independence test
 }
 \description{
 Implements the loss function based permutation test as described
-in Fiksel et al. (2020) for a test of linear independence between compositional
+in Fiksel et al. (2022) for a test of linear independence between compositional
 outcomes and predictors.
 }
 \examples{

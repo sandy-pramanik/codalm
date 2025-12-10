@@ -10,15 +10,15 @@ test_that("bootstrap CI works with sequential evaluation", {
     B_ci_L <- ci$ci_L
     expect_true(is.matrix(B_ci_L))
     expect_true(mean(B_ci_L >= 0) == 1)
-    expect_true(all.equal(dim(B_ci_L), c(2,3)))
+    expect_true(isTRUE(all.equal(dim(B_ci_L), c(2,3))))
     expect_true(mean(B_ci_L <= B_est) == 1)
 
     B_ci_U <- ci$ci_U
     expect_true(is.matrix(B_ci_U))
     expect_true(mean(B_ci_U >= 0) == 1)
-    expect_true(all.equal(dim(B_ci_U), c(2,3)))
+    expect_true(isTRUE(all.equal(dim(B_ci_U), c(2,3))))
     expect_true(mean(B_ci_U >= B_est) == 1)
-    expect_true(all.equal(plan("list"), oplan))
+    expect_true(isTRUE(all.equal(plan("list"), oplan)))
 })
 test_that("bootstrap CI works with multisession evaluation", {
     require(gtools)
@@ -33,13 +33,13 @@ test_that("bootstrap CI works with multisession evaluation", {
     B_ci_L <- ci$ci_L
     expect_true(is.matrix(B_ci_L))
     expect_true(mean(B_ci_L >= 0) == 1)
-    expect_true(all.equal(dim(B_ci_L), c(2,3)))
+    expect_true(isTRUE(all.equal(dim(B_ci_L), c(2,3))))
     expect_true(mean(B_ci_L <= B_est) == 1)
 
     B_ci_U <- ci$ci_U
     expect_true(is.matrix(B_ci_U))
     expect_true(mean(B_ci_U >= 0) == 1)
-    expect_true(all.equal(dim(B_ci_U), c(2,3)))
+    expect_true(isTRUE(all.equal(dim(B_ci_U), c(2,3))))
     expect_true(mean(B_ci_U >= B_est) == 1)
-    expect_true(all.equal(plan("list"), oplan))
+    expect_true(isTRUE(all.equal(plan("list"), oplan)))
 })

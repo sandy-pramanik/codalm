@@ -23,7 +23,7 @@ and outcome, respectively
 }
 \description{
 Implements the expectation-maximization (EM) algorithm as described
-in Fiksel et al. (2020) for transformation-free linear regression for
+in Fiksel et al. (2022) for transformation-free linear regression for
 compositional outcomes and predictors.
 }
 \examples{
@@ -38,5 +38,5 @@ y <- microscopic_mat / rowSums(microscopic_mat)
 codalm(y, x)
 }
 \references{
-\url{https://arxiv.org/abs/2004.07881}
+\url{https://doi.org/10.1111/biom.13465}
 }
