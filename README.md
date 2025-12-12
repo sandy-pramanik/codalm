@@ -1,10 +1,7 @@
-<!-- badges: start -->
-[![Travis build status](https://travis-ci.com/jfiksel/codalm.svg?branch=master)](https://travis-ci.com/jfiksel/codalm)
-<!-- badges: end -->
 
 # The codalm R package
 
-The codalm R package implements the methods as described in [A Transformation-free Linear Regression for Compositional Outcomes and Predictors](https://arxiv.org/abs/2004.07881) (Fiksel, Zeger, and Datta, 2020)
+The codalm R package implements the methods as described in A Transformation-free Linear Regression for Compositional Outcomes and Predictors (Fiksel et al., 2022,<https://doi.org/10.1111/biom.13465>)
 
 ## Installation
 

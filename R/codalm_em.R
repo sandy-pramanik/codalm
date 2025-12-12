@@ -53,7 +53,7 @@ compreg.loglik <- function(pars, A, G, D1, D2) {
 #' @param accelerate A logical variable, indicating whether or not to use the
 #' Squarem algorithm for acceleration of the EM algorithm. Default is TRUE.
 #'
-#' @references \url{https://doi.org/10.1111/biom.13465}
+#' @references \doi{10.1111/biom.13465}
 #'
 #' @return A \eqn{D_s} x \eqn{D_r} compositional coefficient matrix, where
 #' \eqn{D_s} and \eqn{D_r}  are the dimensions of the compositional predictor

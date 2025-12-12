@@ -38,5 +38,5 @@ y <- microscopic_mat / rowSums(microscopic_mat)
 codalm(y, x)
 }
 \references{
-\url{https://doi.org/10.1111/biom.13465}
+\doi{10.1111/biom.13465}
 }
