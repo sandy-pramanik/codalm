@@ -19,4 +19,5 @@ remotes::install_github("sandy-pramanik/codalm")
 
 ## Example
 
-View the vignette (<https://sandy-pramanik.github.io/codalm/articles/codalm_quickstart.html>) for examples of how to use the `codalm` package
+View the vignette (<https://sandy-pramanik.github.io/codalm/articles/codalm_quickstart.html>) for examples of how to use the `codalm` package.
+

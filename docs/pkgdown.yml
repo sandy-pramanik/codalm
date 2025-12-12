@@ -3,4 +3,7 @@ pkgdown: 2.1.3
 pkgdown_sha: ~
 articles:
   codalm_quickstart: codalm_quickstart.html
-last_built: 2025-12-12T01:20Z
+last_built: 2025-12-12T01:48Z
+urls:
+  reference: https://sandy-pramanik.github.io/codalm/reference
+  article: https://sandy-pramanik.github.io/codalm/articles
